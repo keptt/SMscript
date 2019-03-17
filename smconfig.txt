@@ -1,0 +1,51 @@
+-SMTP_CONF
+
+--PORT
+
+<< enter port of connection with smtp server for instance "587" or other instead of this text. Note: don't use "<<" or ">>">>
+
+--HOST
+
+<<enter smtp server you are using like "smtp.gmail.com" or any other instead of this text. Note: don't use "<<" or ">>">>
+
+--USERNAME
+
+<<enter your username in the stmp server (usually it corresponds to email address you are going to send mails from) 
+instead of this text. Note: don't use "<<" or ">>">>
+
+--PASSWORD
+
+<<enter your password (generally password to your email service) in binary form instead of this text. Note: don't use "<<" or ">>">>
+
+-EMAIL CONTENT
+
+--SUBJECT
+
+<<enter your email subject instead of this text. Here you can use utf-8. Note: don't use "<<" or ">>">>
+
+--TEXT
+{
+
+<<enter your email text content instead of this text. Here you can use utf-8. Note: don't use "<<" or ">>">>
+
+}
+--FILEPATHS
+{
+
+<<enter attechments(any file you wish to add to your email). Each one on a new line without separators. If you place the file into the derectory same
+as your script and smconfig.txt then you can type just the name of the file here. Example "image.png", "file.doc" etc..
+Here you can use utf-8. Note: don't use "<<" or ">>">>
+
+}
+--SENDER
+
+<<enter the name of the email you are sending these contents from. Note: don't use "<<" or ">>">>
+
+
+--RECEIVERS
+{
+
+<<enter the emails of receivers of your mailing. Each one starts from a new line without separators. Note: don't use "<<" or ">>">>
+
+}
+
