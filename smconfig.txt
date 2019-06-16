@@ -39,7 +39,7 @@ Here you can use utf-8. Note: don't use "<<" or ">>">>
 }
 --SENDER
 
-<<enter the name of the email you are sending these contents from. Note: don't use "<<" or ">>">>
+<<enter the email address you are sending these contents from. Note: don't use "<<" or ">>">>
 
 
 --RECEIVERS
